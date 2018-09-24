@@ -106,4 +106,4 @@ test-suite fixtures
 source-repository head
   type:     git
   subdir:   haddock-library
-  location: https://github.com/haskell/haddock.git
+  location: https://github.com/beauvankirk/haddock.git

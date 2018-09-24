@@ -1,0 +1,21 @@
+resolver: nightly-2018-09-23
+name: snapshot-for-ghc-8.4.3-nightly-2018-09-23
+
+packages:
+# - Cabal-2.4.0.0@rev:0
+- git: https://github.com/haskell/cabal
+  commit: f28e6152ec06a9357b594ddb5382bdd0df7d64fa
+  subdirs:
+    - Cabal
+    - cabal-install
+- git: https://github.com/beauvankirk/cabal-doctest
+  commit: 3c89299e7a9f1b19202c73e0d8ed18c005d44970
+# - http-api-data-0.3.8.1@rev:1
+
+drop-packages:
+- Cabal
+- cabal-install
+- cabal-doctest
+- haddock
+- haddock-api
+- haddock-library

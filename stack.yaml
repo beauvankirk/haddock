@@ -1,0 +1,14 @@
+resolver: snapshot.yaml # GHC 8.4.3
+packages:
+- .
+- haddock-api
+- haddock-library
+- haddock-test
+
+extra-deps:
+
+
+nix:
+  packages: [ icu libcxx zlib ]
+
+concurrent-tests: false

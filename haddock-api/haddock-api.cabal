@@ -41,7 +41,7 @@ library
 
   -- this package typically supports only single major versions
   build-depends: base            ^>= 4.11.0
-               , Cabal           ^>= 2.4.0
+               , Cabal           ^>= 2.5.0
                , ghc             ^>= 8.4
                , ghc-paths       ^>= 0.1.0.9
                , haddock-library ^>= 1.6.0
@@ -193,4 +193,4 @@ test-suite spec
 source-repository head
   type:     git
   subdir:   haddock-api
-  location: https://github.com/haskell/haddock.git
+  location: https://github.com/beauvankirk/haddock.git
