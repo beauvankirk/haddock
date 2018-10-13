@@ -1,0 +1,12 @@
+resolver: snapshot.yaml
+
+packages:
+  - '.'
+  - 'haddock-library'
+  - 'haddock-api'
+  - 'haddock-test'
+extra-deps: []
+
+flags: {}
+
+extra-package-dbs: []
